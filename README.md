@@ -10,7 +10,7 @@ flutter run
 
 ## Different ways to use markdown in Flutter apps
 
-### Just display markdown
+### 🐵 Just display markdown
 
 Use `flutter_markdown_plus` package.
 It has large community support.
@@ -25,7 +25,9 @@ import 'package:flutter_markdown_plus/flutter_markdown_plus.dart';
 Markdown(data:mdText),
 ```
 
-### Regular TextField with a floating toolbar with markdown shortcuts and an optional eye icon button to see the final result
+---
+
+### 🐵 Regular TextField with a floating toolbar with markdown shortcuts and an optional eye icon button to see the final result
 
 TextField with a floating toolbar next to the cursor.
 There is an eye icon in the toolbar to see the result.
@@ -48,7 +50,9 @@ MarkdownAutoPreview(
 ),
 ```
 
-### Regular TextField with a toolbar at its bottom with markdown shortcuts
+---
+
+### 🐵 Regular TextField with a toolbar at its bottom with markdown shortcuts
 
 https://pub.dev/packages/markdown_editable_textinput
 
@@ -89,7 +93,9 @@ MarkdownBody(
 ),
 ```
 
-### Markdown TextField like if it were Microsoft Word or Google Docs
+---
+
+### 🐵 Markdown TextField like if it were Microsoft Word or Google Docs
 
 Use `flutter_quill` package.
 It's a WYSIWYG (What You See Is What You Get) editor.
