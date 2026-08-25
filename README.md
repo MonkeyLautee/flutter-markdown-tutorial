@@ -27,31 +27,6 @@ Markdown(data:mdText),
 
 ---
 
-### 🐵 Regular TextField with a floating toolbar with markdown shortcuts and an optional eye icon button to see the final result
-
-TextField with a floating toolbar next to the cursor.
-There is an eye icon in the toolbar to see the result.
-It's possible to customize the toolbar colors.
-
-https://pub.dev/packages/markdown_editor_plus
-
-```bash
-flutter pub add markdown_editor_plus
-```
-
-```js
-import 'package:markdown_editor_plus/markdown_editor_plus.dart';
-
-TextEditingController _controller = TextEditingController();
-
-MarkdownAutoPreview(
-  controller: _controller,
-  emojiConvert: true,
-),
-```
-
----
-
 ### 🐵 Regular TextField with a toolbar at its bottom with markdown shortcuts
 
 https://pub.dev/packages/markdown_editable_textinput
@@ -90,6 +65,31 @@ ElevatedButton(
 MarkdownBody(
   data: _description,
   shrinkWrap: true,
+),
+```
+
+---
+
+### 🐵 Regular TextField with a floating toolbar with markdown shortcuts and an optional eye icon button to see the final result
+
+TextField with a floating toolbar next to the cursor.
+There is an eye icon in the toolbar to see the result.
+It's possible to customize the toolbar colors.
+
+https://pub.dev/packages/markdown_editor_plus
+
+```bash
+flutter pub add markdown_editor_plus
+```
+
+```js
+import 'package:markdown_editor_plus/markdown_editor_plus.dart';
+
+TextEditingController _controller = TextEditingController();
+
+MarkdownAutoPreview(
+  controller: _controller,
+  emojiConvert: true,
 ),
 ```
 
