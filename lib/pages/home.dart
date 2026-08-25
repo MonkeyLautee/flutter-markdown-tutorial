@@ -120,7 +120,7 @@ This text has some `special words`.''';
 						Approach2(),
 					),
 					Approach(
-						'Regular TextField with a floating toolbar with markdown shortcuts and an optional eye icon button to see the final result.',
+						'Regular TextField with a toolbar at its bottom with markdown shortcuts and an eye icon button to see the final result',
 						'Markdown TextField 2',
 						Approach3(),
 					),

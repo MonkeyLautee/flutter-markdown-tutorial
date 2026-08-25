@@ -70,9 +70,9 @@ MarkdownBody(
 
 ---
 
-### 🐵 Regular TextField with a floating toolbar with markdown shortcuts and an optional eye icon button to see the final result
+### 🐵 Regular TextField with a toolbar at its bottom with markdown shortcuts and an eye icon button to see the final result
 
-TextField with a floating toolbar next to the cursor.
+TextField with a toolbar next to the cursor.
 There is an eye icon in the toolbar to see the result.
 It's possible to customize the toolbar colors.
 
