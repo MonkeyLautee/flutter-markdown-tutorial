@@ -35,8 +35,8 @@ https://pub.dev/packages/markdown_editable_textinput
 flutter pub add markdown_editable_textinput
 ```
 
-More advanced markdown features and extensive customization for your editor.
-More community support.
+Advanced markdown features and extensive customization for your editor.
+Good community support.
 It includes a toolbar with a wider range of markdown formatting options.
 The toolbar can be customized and styled to fit the app's design and branding.
 
@@ -72,7 +72,7 @@ MarkdownBody(
 
 ### 🐵 Regular TextField with a toolbar at its bottom with markdown shortcuts and an eye icon button to see the final result
 
-TextField with a toolbar next to the cursor.
+TextField with a toolbar at the bottom.
 There is an eye icon in the toolbar to see the result.
 It's possible to customize the toolbar colors.
 
