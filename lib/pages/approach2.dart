@@ -11,7 +11,7 @@ class Approach2 extends StatefulWidget {
 
 class _Approach2State extends State<Approach2> {
 
-	String _description = 'My great package';
+	String _mdText = 'My great package';
 	final TextEditingController controller = TextEditingController();
 
 	@override
@@ -25,9 +25,9 @@ class _Approach2State extends State<Approach2> {
 					const SizedBox(height:12),
 					//Here you type the markdown
 					MarkdownTextInput(
-					  (String value) => setState(() => _description = value),
-					  _description,
-					  label: 'Description',
+					  (String value) => setState(() => _mdText = value),
+					  _mdText,
+					  label: 'Markdown text',
 					  actions: MarkdownType.values,
 					  controller: controller,
 					  textStyle: const TextStyle(fontSize: 17),
@@ -38,7 +38,7 @@ class _Approach2State extends State<Approach2> {
 					),
 					//Here the markdown is displayed
 					MarkdownBody(
-					  data: _description,
+					  data: _mdText,
 					  shrinkWrap: true,
 					),
 					const SizedBox(height:12),

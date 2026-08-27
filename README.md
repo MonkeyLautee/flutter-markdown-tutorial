@@ -45,25 +45,26 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:markdown_editable_textinput/format_markdown.dart';
 import 'package:markdown_editable_textinput/markdown_text_input.dart';
 
-String _description = 'My great package';
+String _mdText = 'My great package';
 TextEditingController controller = TextEditingController();
 
 //Here you type the markdown
 MarkdownTextInput(
-  (String value) => setState(() => _description = value),
-  _description,
+  (String value) => setState(() => _mdText = value),
+  _mdText,
   label: 'Description',
   actions: MarkdownType.values,
   controller: controller,
   textStyle: const TextStyle(fontSize: 17),
 ),
+// Button to clear the textfield (optional)
 ElevatedButton(
   onPressed: ()=>controller.clear(),
   child: const Text('Clear'),
 ),
-//Here the markdown is displayed
+//Here the markdown is displayed (optional)
 MarkdownBody(
-  data: _description,
+  data: _mdText,
   shrinkWrap: true,
 ),
 ```
@@ -72,7 +73,7 @@ MarkdownBody(
 
 ### 🐵 Regular TextField with a toolbar at its bottom with markdown shortcuts and an eye icon button to see the final result
 
-TextField with a toolbar at the bottom.
+TextField with a toolbar.
 There is an eye icon in the toolbar to see the result.
 It's possible to customize the toolbar colors.
 
