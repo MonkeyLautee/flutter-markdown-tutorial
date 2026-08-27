@@ -133,7 +133,7 @@ Expanded(
 
 * Important code to add:
 
-Ensure `flutter_localizations` is in your `puspec.yaml`:
+Ensure `flutter_localizations` is in your `pubspec.yaml`:
 
 ```yaml
 dependencies:
